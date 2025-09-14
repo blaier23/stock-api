@@ -2,6 +2,7 @@
 
 ## Run:
 - cd dbAssignment
+- edit .env POLYGON_API_KEY= 
 - docker build -t stock-api .
 - docker run --env-file .env -p 8000:8000 stock-api
 - http://localhost:8000/docs
@@ -10,4 +11,5 @@
 ## Notes:
 - Made use of Chatgpt 
 - Requires docker
+
 - Tested under python 3.11
